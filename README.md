@@ -11,7 +11,7 @@ In another project, which is a convieniently very similar game to this one, I ha
 The link to that game is here: https://ingbing.itch.io/the-plants-are-on-steroids
 
 ### W1 activity
-W1 Exercise
+#### W1 Exercise
 
 Q1
 10
@@ -44,3 +44,6 @@ _playerTransform.Translate
 
 
 ### W2
+#### Lecture Notes
+
+Make sure to fork the correct repository every week for the minigames lol oopsies. Main repo - this repo - cannot be built, which is why it resulted in the weird build error I experienced. ,:P
