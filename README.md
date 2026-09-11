@@ -40,4 +40,7 @@ Transform with a capital T is the class "transform", not the actual objects tran
 Q8
 _playerTransform.Translate
 
+<img width="1936" height="1262" alt="W1_DiagramForGame" src="https://github.com/user-attachments/assets/9c871467-2327-48ef-b4b9-89bf8d116710" />
+
+
 ### W2
