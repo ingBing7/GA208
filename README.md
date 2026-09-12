@@ -61,3 +61,7 @@ If I'm ever confused on a function/method, go the MonoBehavior documentation pag
 Static methods and variables
 
 Random.Range will select a random number from a specific range, like 30-40 or 1-100. It does not require a specific object. 
+
+Diagram For Game
+
+<img width="2169" height="1436" alt="W2_DiagramForGame" src="https://github.com/user-attachments/assets/08a1df5a-e56c-40e0-9f6b-edb1a6cfec26" />
