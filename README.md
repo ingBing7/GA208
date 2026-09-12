@@ -52,7 +52,7 @@ Map!
 Make sure to fork the correct repository every week for the minigames lol oopsies. Main repo - this repo - cannot be built, which is why it resulted in the weird build error I experienced. ,:P 
 Make sure to rewrite Devlog 1 so it's more accurate to the prompt. Lay out how the map I drew in class on week 1 connects to the code I wrote. 
 
-~W2 preparation quiz review~
+W2 preparation quiz review
 
 Prefabs exist so we can make copies of them before they're in the scene. Transform.x just. Isn't a thing. Transform.position.x is!
 
