@@ -1,4 +1,3 @@
-<img width="2169" height="1436" alt="W3 diagram" src="https://github.com/user-attachments/assets/de4d96f0-70e9-42a0-9d4c-ae514eb7a935" />
 # GA208
 ## Devlogs
 
