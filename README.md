@@ -65,3 +65,17 @@ Random.Range will select a random number from a specific range, like 30-40 or 1-
 Diagram For Game
 
 <img width="2169" height="1436" alt="W2_DiagramForGame" src="https://github.com/user-attachments/assets/08a1df5a-e56c-40e0-9f6b-edb1a6cfec26" />
+
+### W3
+#### Lecture Notes
+
+C: :3 :P :D :V :T :P :L :Y :O :B :X :S :1 :7
+
+Vector3.down/(0, -1, 0) is a static method, which means it can be used directly with the class name without creating a new Vector3 first. You don't need to define it, it'll know what it's doing. 
+
+Inheritance is when you have a parent script that has children scripts that are able to call methods from the parent script so as long as they are public or protected. Sometimes child classes can be parents of their own children scripts. A lovely family.......
+
+This can be used for various enemy or NPC AIs, giving them shared methods such as walking or making noise, but also giving them the ability to have unique abilities like fighting or eating grass. It's more optimal than using multiple unqiue scripts on every NPC or Enemy within the game. It also helps with organization and prevents you from making 10000 changes across all your different NPC scripts, as you can just make one single change in a parent script.
+
+States can be super useful for giving an NPC certain actions in regards to the player. It might have a sleeping, walking, and foraging states, and it can't be in two at the same time. The NPC might walk towards the player when they come close or become disinterested in them and forage in some nearby bushes when the player is further away. Perhaps if the player is far away for a longer amount of time, they'll enter the sleep state. You could use bools for this, but it'd quickly become unorganized and introduce the possibility of a bug where two or more states are active at once. Creating a state machine for this helps eliminate these issues from occuring.
+
