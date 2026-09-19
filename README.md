@@ -1,3 +1,4 @@
+<img width="2169" height="1436" alt="W3 diagram" src="https://github.com/user-attachments/assets/de4d96f0-70e9-42a0-9d4c-ae514eb7a935" />
 # GA208
 ## Devlogs
 
@@ -78,4 +79,9 @@ Inheritance is when you have a parent script that has children scripts that are 
 This can be used for various enemy or NPC AIs, giving them shared methods such as walking or making noise, but also giving them the ability to have unique abilities like fighting or eating grass. It's more optimal than using multiple unqiue scripts on every NPC or Enemy within the game. It also helps with organization and prevents you from making 10000 changes across all your different NPC scripts, as you can just make one single change in a parent script.
 
 States can be super useful for giving an NPC certain actions in regards to the player. It might have a sleeping, walking, and foraging states, and it can't be in two at the same time. The NPC might walk towards the player when they come close or become disinterested in them and forage in some nearby bushes when the player is further away. Perhaps if the player is far away for a longer amount of time, they'll enter the sleep state. You could use bools for this, but it'd quickly become unorganized and introduce the possibility of a bug where two or more states are active at once. Creating a state machine for this helps eliminate these issues from occuring.
+
+#### Diagram for W3 minigame
+
+<img width="2169" height="1436" alt="W3 diagram" src="https://github.com/user-attachments/assets/c9b1d4e7-945c-4f49-b2af-0a45b64bb04b" />
+
 
