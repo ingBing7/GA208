@@ -53,8 +53,19 @@ public class Muskrat : MonoBehaviour
         // The Muskrat should never play the "flying" animation while on a
         //      bubble.
 
-
         // STEP 4 -------------------------------------------------------------
+
+        if (Mathf.Abs(_rigidbody.linearVelocity.z) > 0)
+        {
+            _animator.SetBool("running", true);
+        }
+        else
+        {
+            _animator.SetBool("running", false);
+        }
+
+        _animator.SetBool("flying", false);
+
     }
 
     // ------------------------------------------------------------------------
@@ -76,6 +87,7 @@ public class Muskrat : MonoBehaviour
 
         // STEP 1 -------------------------------------------------------------
 
+        transform.Rotate(Vector3.up * leftright * _rotationSpeed * Time.deltaTime);
 
         // STEP 2 -------------------------------------------------------------
         float movement = Input.GetAxis("Vertical");
@@ -83,10 +95,12 @@ public class Muskrat : MonoBehaviour
         // This line of code is incorrect. 
         // Replace it with a different line of code that uses 'movement' to
         //      move the Muskrat forwards and backwards.
+
         transform.position += movement * Vector3.forward * _moveSpeed * Time.deltaTime;
 
         // STEP 2 -------------------------------------------------------------
 
+        transform.position += transform.forward * movement * _moveSpeed * Time.deltaTime;
 
         // STEP 3 -------------------------------------------------------------
         // Change the "flying" and "running" parameters on the Animator based
@@ -95,8 +109,36 @@ public class Muskrat : MonoBehaviour
         // You may also find the absolute value method, Mathf.Abs(), helpful:
         //      https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Abs.html
 
-        
+
         // STEP 3 -------------------------------------------------------------
+
+        if (Mathf.Abs(_rigidbody.linearVelocity.z) > 0f)
+        {
+            _animator.SetBool("running", true);
+        }
+        else
+        {
+            _animator.SetBool("running", false); 
+        }
+
+        if (Mathf.Abs(_rigidbody.linearVelocity.x) > 0f)
+        {
+            _animator.SetBool("running", true);
+        }
+        else
+        {
+            _animator.SetBool("running", false);
+        }
+
+        if (Mathf.Abs(_rigidbody.linearVelocity.y) > 0f)
+        {
+            _animator.SetBool("flying", true);
+        }
+        else
+        {
+            _animator.SetBool("flying", false);
+        }
+
     }
 
     // ------------------------------------------------------------------------
