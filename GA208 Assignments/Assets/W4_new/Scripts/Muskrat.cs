@@ -96,7 +96,7 @@ public class Muskrat : MonoBehaviour
         // Replace it with a different line of code that uses 'movement' to
         //      move the Muskrat forwards and backwards.
 
-        transform.position += movement * Vector3.forward * _moveSpeed * Time.deltaTime;
+        //transform.position += movement * Vector3.forward * _moveSpeed * Time.deltaTime;
 
         // STEP 2 -------------------------------------------------------------
 

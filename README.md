@@ -105,3 +105,4 @@ transform.position += moveAmount; will move the object relative to the world.
 
 #### DevLog
 
+My new line of code moves the Muskrat correctly as it moves it forward relative to the Muskrats coordinate space. Using the transform.translate function, the game will read the Muskrats local space over the global space, pushing it forward using the Muskrat object rotation instead of using the global space's Vector3.forward function. 
