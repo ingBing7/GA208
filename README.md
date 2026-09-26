@@ -83,4 +83,22 @@ States can be super useful for giving an NPC certain actions in regards to the p
 
 <img width="2169" height="1436" alt="W3 diagram" src="https://github.com/user-attachments/assets/c9b1d4e7-945c-4f49-b2af-0a45b64bb04b" />
 
+### W4
+#### Lecture Notes
 
+Vectors and Transform components
+
+A scalar is a single value: speed, distance
+
+A vector is a list of values: in 3D simulators, often 3 scalars representing something ongoing on all 3 axes.
+Displacement => distance on x, y, axes.
+
+Most common usage: displacement in 3D space. You can visualize these as arrows pointing from location from another. The (x,y,z) components ytell you how far you traveled on each axis. 
+
+Coordinate Spaces
+
+A coordinate space is a relative space that Vectors live in.
+
+Rotate the muskrat and his local space is no longer in line with the global space.... So sad. 
+
+transform.position += moveAmount; will move the object relative to the world.
