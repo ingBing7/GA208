@@ -118,6 +118,17 @@ You need to have a virtual method in the parent class to override the method in 
 
 In the W4 bird minigame, the "panic" Method would be a good abstract method, as it's empty so the child class can have their unique response to it.
 
+#### In class demo notes
+By having the inventory system be handled by the player class, it causes the inventory to become tightly coupled with the player. This makes it very difficult to expand upon the inventory, and it's extremely inconvienient for non programmers on the team to actually access and edit the inventory and potentially tune it. 
+
+Saving each item as prefabs is also inconvinent, as it creates a lot of overhead and clutter for storing the information about each item. 
+
+Using Scriptable objects is the most convinient option, as it enables these stats/data points to be edited directly in the Unity editor. It is not hard coded, and it is easy to add more items without needing to write any code.
+
+#### Activity part 4
+Hatsune Miku Rythm game 
+Scriptable objects would be
+
 #### Devlog
 
 
