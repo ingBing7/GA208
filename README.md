@@ -106,3 +106,18 @@ transform.position += moveAmount; will move the object relative to the world.
 #### DevLog
 
 My new line of code moves the Muskrat correctly as it moves it forward relative to the Muskrats coordinate space. Using the transform.translate function, the game will read the Muskrats local space over the global space, pushing it forward using the Muskrat object rotation instead of using the global space's Vector3.forward function. 
+
+### W5
+#### Devlog
+
+### W6
+#### Lecture notes
+From a software design perspective, the "User" will always be another programmer who will be collaborating with you on your code. AKA, other people who will be USING your code.
+
+You need to have a virtual method in the parent class to override the method in a child class.
+
+In the W4 bird minigame, the "panic" Method would be a good abstract method, as it's empty so the child class can have their unique response to it.
+
+#### Devlog
+
+
