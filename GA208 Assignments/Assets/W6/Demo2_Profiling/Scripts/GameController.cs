@@ -25,6 +25,7 @@ public class GameController : MonoBehaviour
     }
 
     private void Update () {
+
         /*
         foreach(GameObject obj in _fruits)
         {
