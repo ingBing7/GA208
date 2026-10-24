@@ -1,3 +1,4 @@
+
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -34,7 +35,6 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         rb.linearVelocity = moveInput * moveSpeed;
-
         //pushes the rigidbody forward based on the move input and move speed. multiplies the move input by 5, which is the rate at which the player object is moved.
     }
 

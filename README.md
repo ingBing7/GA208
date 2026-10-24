@@ -131,4 +131,22 @@ Scriptable objects would be
 
 #### Devlog
 
+### W7
+
+#### Lecture Notes
+
+A game that requires fast reactions should aim for 60 FPS. Performance describes whether or not our game meets our FPS goal, Optimization is the act of tidying up code/art to achieve better performance. 
+
+Simple colliders are better for performance. Circle and square colliders are the most simple colliders to use! Use more complicated colliders sparingly, only when they're absolutely needed.
+
+Build tests could be performed every week or every other week to check for good performance. Should be played on device, not in editor. 
+
+### W8
+
+#### Devlog Part 1
+
+I'm assuming we'll get the character controller done, and get started on the physics objects. Alongside this, I'm also expecting we'll gather a bunch of our Sound Assets and chuck them in a google drive for easy use.
+
+Here is our Trello board:
+https://trello.com/b/O7MDRfw4/bad-employees-game-project-board
 
