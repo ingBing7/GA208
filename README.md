@@ -150,3 +150,9 @@ I'm assuming we'll get the character controller done, and get started on the phy
 Here is our Trello board:
 https://trello.com/b/O7MDRfw4/bad-employees-game-project-board
 
+#### Devlog Part 2
+
+https://github.com/vividbot/GDIM32-Final/commit/365e630a7967b703431c054c34e7320350525d2f 
+My Commit!
+
+I didn't get as much done as I would have liked. Sean got the character controller, but it was definitely a process and it was hard to get started without it, so I ended up focusing on grabbing some assets and attempting to help with bug fixes. My own edits to the repo were rather limited, but I did get started with the rat script, though it's pretty bare bones. This weekened, on Sunday, I'll pobably go in and finish it up so I still get a decent amount of work in before next class to make up for the relative lack of progress I made in class. I learned a good deal about github and working in a project with another person at the same time, it's not something I get to do super often so it was great building that skill!
