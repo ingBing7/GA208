@@ -156,3 +156,26 @@ https://github.com/vividbot/GDIM32-Final/commit/365e630a7967b703431c054c34e73203
 My Commit!
 
 I didn't get as much done as I would have liked. Sean got the character controller, but it was definitely a process and it was hard to get started without it, so I ended up focusing on grabbing some assets and attempting to help with bug fixes. My own edits to the repo were rather limited, but I did get started with the rat script, though it's pretty bare bones. This weekened, on Sunday, I'll pobably go in and finish it up so I still get a decent amount of work in before next class to make up for the relative lack of progress I made in class. I learned a good deal about github and working in a project with another person at the same time, it's not something I get to do super often so it was great building that skill!
+
+### W9
+
+#### Lecture notes
+
+A good solution for an architectural problem is if it's easy to understand for someone else in the project. Leaving it approachable is ideal.
+
+Making our lives easier isn't just good for other people in the project, it's also good for the actual rate of production! A well organized project is often a project faster and better made.
+All of what we have talked about in class are design patterns that will help us write code that scales well.
+
+#### Devlog 1
+
+##### Part 1
+Today in class I'm planning on finishing the Rat Movement script. I wasn't able to finish it, last week, but today I have a better plan on how to appraoch it, especially now that the Physics Object pick up script is working. 
+
+##### Part 2
+https://github.com/vividbot/GDIM32-Final/commit/282e4b21d034f191636577fb9527bf3c3ce3cdb9 My commit!
+In this commit, I added the spline that lets the rats move. They move on a set track, and the idea is that the spline animator gets disabled when the player picks up the rat, allowing them to move them around.
+
+Initally, my plan for this was to make the rats work with both the movement AND pick up, however I only got the movement working. It turned out the physics objects required a LOT of fine tuning with the raycast and general physics needs that I couldn't really work on the actual pick up mechanic without it. In the end I had to switch gears and continue working on the physics object script I made last week, and ended up getting it working properly through some trial and error. 
+
+Sean and I worked together a lot over this class, as we needed to get our resective scripts working in tandem with each other. My Pick Up script was fighting with Sean's character controller/player setup, and vice versa. It was a lot of back and forth of pushes with small tweeks, talking about fixes, pushing again, and then tweeking again before we finally got our work connected and functional. It was a lot of fun, I learned a good deal about how to properly communicate with another team member about how to fix something or what bugs I was experiencing. 
+On a side note, this was also my first time using both raycasts and splines. I've always avoided them because I was low key intimidated by them, but by using them in the final, I understand them so much better and they really aren't that hard to set up. It's just a lot of trial and error to get them working correctly. I'm super happy about that.
