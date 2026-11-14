@@ -7,12 +7,17 @@ public class W4Seagull : MonoBehaviour
     [SerializeField] Animator _animator;
     [SerializeField] float _minWaitSeconds = 0.0f;
     [SerializeField] float _maxWaitSeconds = 0.5f;
+    public W4Pigeon pigeon;
+
 
     // add a new method here
     // use the Locator to find the Pigeon
     // then, subscribe the HandlePigeonCoo method to the Pigeon coo event
 
-
+    public void Start()
+    {
+        pigeon.PigeonCoo += HandlePigeonCoo;
+    }
 
 
     // don't change the code in this method!

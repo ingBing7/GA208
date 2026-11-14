@@ -5,12 +5,17 @@ public class W4VFX : MonoBehaviour
 {
     [SerializeField] private GameObject _pigeonSpotlight;
     [SerializeField] private float _duration;
+    public W4Pigeon pigeon;
+
 
     // add a new method here
     // use the Locator to find the Pigeon
     // then, subscribe the HandlePigeonCoo method to the Pigeon coo event
 
-
+    public void Start()
+    {
+        pigeon.PigeonCoo += HandlePigeonCoo;
+    }
 
 
 
