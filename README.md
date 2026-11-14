@@ -179,3 +179,13 @@ Initally, my plan for this was to make the rats work with both the movement AND 
 
 Sean and I worked together a lot over this class, as we needed to get our resective scripts working in tandem with each other. My Pick Up script was fighting with Sean's character controller/player setup, and vice versa. It was a lot of back and forth of pushes with small tweeks, talking about fixes, pushing again, and then tweeking again before we finally got our work connected and functional. It was a lot of fun, I learned a good deal about how to properly communicate with another team member about how to fix something or what bugs I was experiencing. 
 On a side note, this was also my first time using both raycasts and splines. I've always avoided them because I was low key intimidated by them, but by using them in the final, I understand them so much better and they really aren't that hard to set up. It's just a lot of trial and error to get them working correctly. I'm super happy about that.
+
+### W11
+
+#### Devlog 1
+add feedback from playtest here! :D
+
+#### Devlog 2
+
+Today I'm going to work on NPC functionality, where they can speak to the player if they are within a certain distance and give them a task after a few lines of dialog. Alongside this, I've already added the ability to throw items.
+If I have any time this evening, I'll continue working on the rat task.
