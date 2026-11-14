@@ -209,7 +209,15 @@ Damien wanted to escape the confines of the Gas Station prison.
 #### Devlog 2
 
 ##### Part 1
+
 Today I'm going to work on NPC functionality, where they can speak to the player if they are within a certain distance and give them a task after a few lines of dialog. Alongside this, I've already added the ability to throw items.
 If I have any time this evening, I'll continue working on the rat task.
 
 ##### Part 2
+
+https://github.com/vividbot/GDIM32-Final/commit/ae81cd558533b14336149278cc63546430157eb5
+Look at the ghost he is so happy
+
+In this commit, it's kind of a culmination of the previous ones. I added NPC billboarding, interaction functionality, and the ability to throw objects, which were my goals for this lab. Once Sean is finished working on his respecive scripts with the tasks, I will go in and properly connect them later this week through events. 
+
+NPC interaction was definitely my biggest task of the evening, and I will continue to work on it this next week so we have full NPC functionality ready for next class!

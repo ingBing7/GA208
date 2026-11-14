@@ -22,19 +22,19 @@ public class PlayerScoot : MonoBehaviour
     {
         Vector3 direction = Vector3.zero;
 
-        if(Input.GetKey(KeyCode.W))
+        if(Input.GetKeyDown(KeyCode.W))
         {
             direction += Vector3.forward;
         }
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A))
         {
             direction += Vector3.left;
         }
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.S))
         {
             direction += Vector3.back;
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.D))
         {
             direction += Vector3.right;
         }
