@@ -183,9 +183,33 @@ On a side note, this was also my first time using both raycasts and splines. I'v
 ### W11
 
 #### Devlog 1
-add feedback from playtest here! :D
+
+##### Pre-playtest
+Our goal on this playtest was overall game feel rather than testing specific task mechanics, as our game is pretty simple in that regard. I'm mostly looking for feedback/opinions on the physics pick up and what needs to change, as it's important to our game for that to feel good.
+Our questions are:
+Does the gameplay feel good? IE: Does the controller feel responsive, a good speed, etc.
+Does the physics object pick up feel good/responsive?
+Does the physics object pick up need anything, like tweeks or new mechanics to make it more enjoyable to use.
+
+##### Post-playtest
+The character controller speed was too fast.
+The rotation on the physics objects felt weird, a little too spinny. Gotta find a way to slow that down a bit, maybe it correlates with the objects mass.
+
+Notes outside of questions:
+
+Knew to grab objects/which objects to grab
+Objects can phase through walls/shelves sometimes
+Took a while to actually do the stocking task
+Knew to grab rats
+Tried to block rats - might be fun to give the player the ability to block rats from moving. Maybe shoot out a raycast from the front of the rat and when it hits something it disables the spline animator?
+UI was helpful
+Need to find a way to clarify /which/ shelves need to be stocked, maybe through a shader or some UI?
+Damien wanted to escape the confines of the Gas Station prison.
 
 #### Devlog 2
 
+##### Part 1
 Today I'm going to work on NPC functionality, where they can speak to the player if they are within a certain distance and give them a task after a few lines of dialog. Alongside this, I've already added the ability to throw items.
 If I have any time this evening, I'll continue working on the rat task.
+
+##### Part 2
