@@ -248,3 +248,10 @@ Didn't see the spawned quest boxes at all.
 #### Tasks for the day
 
 Going to work on improving the level design and UI, that seemed to cause the most confusion during the playtest! Will be working on fixing some of the previously acknowledged bugs like the UI updating incorrectly. 
+
+#### Tasks for the day reflection
+
+https://github.com/vividbot/GDIM32-Final/commit/826c32ba267024e8bd38016b1e82f08de31cc58c
+Implemented the new level design! Wanted to work on the UI, but Sean ended up working on UI and I didn't want to create any merge issues. So intead I worked on fixing some NPC issues (like the DialogBox not triggering correctly when there are multiple NPCS in the scene) and FINALLY got around to fixing the rat movement, which I have been meaning to do. 
+
+The Level Design was definitely the biggest, so I liked the Commit that had that finished, but most of my other fixes were in the following commits!
