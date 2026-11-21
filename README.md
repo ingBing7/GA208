@@ -221,3 +221,10 @@ Look at the ghost he is so happy
 In this commit, it's kind of a culmination of the previous ones. I added NPC billboarding, interaction functionality, and the ability to throw objects, which were my goals for this lab. Once Sean is finished working on his respecive scripts with the tasks, I will go in and properly connect them later this week through events. 
 
 NPC interaction was definitely my biggest task of the evening, and I will continue to work on it this next week so we have full NPC functionality ready for next class!
+
+### W12
+
+#### Lecture Notes
+
+A rendering pipeline is a sequence of instructions for how everything in the game will be drawn to the screen (rendering)
+Shaders made for a particular pipeline will only work in said pipeline. Be careful about assets you get online, as they might not be compatible with the rendering pipeline you're using.
