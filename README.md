@@ -228,3 +228,23 @@ NPC interaction was definitely my biggest task of the evening, and I will contin
 
 A rendering pipeline is a sequence of instructions for how everything in the game will be drawn to the screen (rendering)
 Shaders made for a particular pipeline will only work in said pipeline. Be careful about assets you get online, as they might not be compatible with the rendering pipeline you're using.
+
+#### Playtest Notes - Playtester was Logan
+
+Question: Does object pick up feel good?
+
+Logan didn't know how to interact with the NPCS, though he wanted to.
+After a while, he assumed he couldn't interact with them at all.
+Tried to walk on the rat lol
+Ghost needs some kind of UI indicator
+Also needs improvements on level design
+Objects float awkwardly when pressed against a wall
+rat pick up was super awkward
+UI can update even when quest isn't active
+Assumed you finished a quest by interacting with Ghost a 2nd time
+Kept tryng to check in with ghost on progress on task
+Didn't see the spawned quest boxes at all. 
+
+#### Tasks for the day
+
+Going to work on improving the level design and UI, that seemed to cause the most confusion during the playtest! Will be working on fixing some of the previously acknowledged bugs like the UI updating incorrectly. 
